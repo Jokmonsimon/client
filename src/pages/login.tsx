@@ -4,7 +4,7 @@ import { Container, Box } from '@pankod/refine-mui';
 
 import { CredentialResponse } from '../interfaces/google';
 
-import { yariga } from '../assets';
+import { yearn } from '../assets';
 
 export const Login: React.FC = () => {
   const { mutate: login } = useLogin<CredentialResponse>();
@@ -67,7 +67,11 @@ export const Login: React.FC = () => {
           }}
         >
           <div>
-            <img src={yariga} alt="Yearn AI Logo" />
+            <img
+              src={yearn}
+              alt="Yearn AI Logo"
+              style={{ width: '250px', height: 'auto' }}
+            />
           </div>
           <Box mt={4}>
             <GoogleButton />
