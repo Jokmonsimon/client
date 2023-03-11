@@ -1890,7 +1890,23 @@
     temp "^0.9.4"
     tslib "^2.3.1"
 
-"@pankod/refine-core@^3.101.0", "@pankod/refine-core@^3.90.6", "@pankod/refine-core@^3.97.0":
+"@pankod/refine-core@3.101.2":
+  version "3.101.2"
+  resolved "https://registry.yarnpkg.com/@pankod/refine-core/-/refine-core-3.101.2.tgz#c57f40d926a171c8a95dfe768ac47234dd33b04a"
+  integrity sha512-U/WH4vGuuoXlfpx7ZDULx6nek5jNeuC0T6l58OffwakftrtzAUX4F0kJeluaMmbuvH/rjZwCBwpfF5FSpV168Q==
+  dependencies:
+    "@tanstack/react-query" "^4.10.1"
+    "@tanstack/react-query-devtools" "^4.10.1"
+    export-to-csv-fix-source-map "^0.2.1"
+    lodash "^4.17.21"
+    lodash-es "^4.17.21"
+    papaparse "^5.3.0"
+    pluralize "^8.0.0"
+    qs "^6.10.1"
+    tslib "^2.3.1"
+    warn-once "^0.1.0"
+
+"@pankod/refine-core@^3.90.6", "@pankod/refine-core@^3.97.0":
   version "3.101.0"
   resolved "https://registry.yarnpkg.com/@pankod/refine-core/-/refine-core-3.101.0.tgz#976b1ce979cab2cb61523649b6437641a04bcfa7"
   integrity sha512-/LUNwyVAB5/5+LBzRNZ1VWrjvnSBEXC9bSJjeW9bB8lPLKRWiZqgpcLP7RtKiR7fryDLtGoxTaPRG1RmQ9TjEA==
